@@ -1,0 +1,112 @@
+  
+
+
+
+.container-fluid{
+  background-image: url("../images/greek-vase.png");
+  padding:0;
+  }
+
+
+
+p{
+  line-height: 45px;
+  font-size: 20px;
+  color: #777777;
+}
+
+
+}
+#heading-border
+{border-top:2px solid grey;}
+
+.profileimage
+{width: 250px;
+height: 290px;
+margin-top: 15px;
+margin-bottom: 15px;
+
+}
+
+footer{
+  background-color:#666666;
+  border-top: 5px solid #4aaaa5;
+  text-align:center;
+}
+ 
+
+
+.container{
+  background-color: white;
+
+}
+.margin-bottom{
+  margin-bottom: -1rem;
+}
+.margin-top{
+  margin-top: -1rem;
+}
+.img-fluid{
+  max-width: auto;
+  height: auto;  
+}
+.overlay {
+  position: absolute;
+  bottom: 3px;
+  color: white;
+  background: #4aaaa5;            
+  text-align:center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px; 
+  margin-bottom: 10px;   
+  left: 0;
+  right: 0;   
+  height:50px;    
+}
+.imagecontainer {
+  width:300px;        
+  float:left;
+  margin: 45px; 
+  position: relative;   
+    
+  }
+
+  .imagecontainer img{
+    width: 300px;
+    
+  }
+  img{
+    height:200px;
+    width:200px;
+  
+  }
+  #border{
+    border-bottom: #cccccc 3px solid;
+
+
+  }
+  #fontsize{
+    font-size: 34px;
+  }
+  p{
+    font-size:25px;
+    line-height: 40px;
+  }
+  /* this media screen will ensure that the index page will look good when used on a phone */
+  @media screen and (max-width: 640px) {
+    
+    .wrapper{
+      
+      padding: 40px;
+      margin-left: 200px;
+      margin-right: 200px;
+      width: 480px;
+    }
+    .unwrap{
+      margin: 100px;}
+      .align{
+        text-align: center;
+        margin: 0 auto;}
+
+    }
+    
